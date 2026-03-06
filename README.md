@@ -78,8 +78,4 @@ stock-price-visualizer
 ├── stock_prices.png
 └── README.md
 ```
-##💡Future Improvements
-- Add interactive charts using Plotly
-- Support additional stock markets and tickers
-- Build a web dashboard for real-time visualization
-- Implement automated daily data updates
+
