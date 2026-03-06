@@ -27,7 +27,7 @@ The program retrieves market data using the **yFinance API**, processes the data
 The program generates two outputs:
 
 **1. CSV Dataset**
-### Example CSV Output
+Example CSV Output
 
 The program exports stock price data to a CSV file in the following format:
 
@@ -43,12 +43,12 @@ Date,0001,0002,0003,0005
 2026-03-04,59.85,73.35,7.54,130.80
 2026-03-05,61.15,74.55,7.53,133.90
 2026-03-06,60.70,74.45,7.52,133.40
+```
 
 **2. Chart Visualization**
 
 A multi-panel chart displaying price movements for each stock across the last 10 trading days.
-
-<img width="2069" height="1029" alt="stock_prices" src="https://github.com/user-attachments/assets/d09f0f99-97d4-474d-b6b3-f69b6e5b6da1" />
+<img width="2069" height="1029" alt="stock_prices" src="https://github.com/user-attachments/assets/6d6395d6-d9df-4b13-9401-e4924b25ade1" />
 
 
 ---
@@ -70,12 +70,14 @@ pip install pandas matplotlib yfinance
 python stock_price_visualizer.py
 ```
 ## 📂 Project Structure
+```
 stock-price-visualizer
 │
 ├── stock-price-visualizer.py
-├── stock_prices.cs
+├── stock_prices.csv
 ├── stock_prices.png
 └── README.md
+```
 ##💡Future Improvements
 - Add interactive charts using Plotly
 - Support additional stock markets and tickers
